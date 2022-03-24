@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0;
+  background: url(https://sport.mail.ru/img/_main/subnav.png);
+}
+h1 {
+  font-size: 30px;
+  color: darkslateblue;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+h1 span {
+  border: 4px solid darkslateblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+}
+h2 span {
+  font-size: 28px;
+  color: rgb(0, 223, 19);
+  display: flex;
+  justify-content: center;
+}
+a:hover {
+  color: green;
+}
+.img-circle {
+  border: 3px solid rgb(216, 29, 29);
+  border-radius: 50%;
+  animation: move 6s linear infinite;
+}
+.img-circle:hover {
+  animation: none;
+}
+@keyframes move {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.position-1 {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+#header img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+section {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+ul li {
+  text-align: center;
+  list-style-type: none;
+}
+
+#contacts {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+th {
+  border: 1px solid black;
+}
+table {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+h2 {
+  padding-bottom: 10px;
+}
